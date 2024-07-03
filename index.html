@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDSP HOME</title>
+    <link rel="icon" href="/jio.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="jio.png" alt="Jio Logo"/>
+        <h1>RETAIL DATA SCIENCE PLATFORM</h1>
+        <p>JIO PLATFORMS LIMITED</p>
+    </div><br><br>
+    <div class="main">
+        <div class="functionality">
+            <a href="#" class="menu-item" onclick="showIcons('supply-chain')">Supply Chain Planning</a>
+            <a href="#" class="menu-item" onclick="showIcons('operations')">Operations Management</a>
+            <a href="#" class="menu-item" onclick="showIcons('transportation')">Transportation</a>
+            <a href="#" class="menu-item" onclick="showIcons('recommendation')">Recommendation & Personalization</a>
+            <a href="#" class="menu-item" onclick="showIcons('finance')">Finance & Billing</a>
+            <a href="#" class="menu-item" onclick="showIcons('people')">People Analytics</a>
+        </div>
+        <div class="icons" id="icons">
+            <!-- Icons will be displayed here -->
+        </div>
+        <div class="pointer" id="pointer"></div>
+    </div>
+
+</body>
+</html>
