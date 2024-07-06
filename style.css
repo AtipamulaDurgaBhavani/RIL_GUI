@@ -1,5 +1,9 @@
+body{
+ background-image: url('bg.jpg');
+}
 .header img {
     float: left;
+    border-radius: 50%;
     height: 90px;
     width: 90px;
 }
@@ -12,7 +16,7 @@
     text-align: center;
     font-size: x-large;
     line-height: 0;
-    color: #747474;
+    color:black;
 }
 .main {
     display: inline-flex;
@@ -20,7 +24,7 @@
 .functionality {
     width: 440px;
     height: 500px;
-    background-color: #dceaf7;
+    background-color: #ccedf6;
     border-radius: 15%;
     margin-left: 5px;
     border: 2px solid black;
@@ -57,7 +61,13 @@
     margin: 10px;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s;
 }
+.icons a:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
 .icons img {
     height: 90px;
     width: 90px;

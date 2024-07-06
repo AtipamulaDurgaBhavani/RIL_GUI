@@ -1,4 +1,4 @@
-function showIcons(category) {
+function showIcons(event,category) {
     const iconsDiv = document.getElementById('icons');
     const pointerDiv = document.getElementById('pointer');
     let iconsHTML = '';
@@ -9,7 +9,7 @@ function showIcons(category) {
         item.classList.remove('hovered');
     });
 
-    // Add highlight and hovered class to the clicked menu item
+    
     event.target.classList.add('highlight');
     event.target.classList.add('hovered');
 
