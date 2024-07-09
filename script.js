@@ -40,7 +40,7 @@ function showIcons(event,category) {
    else if(category==='recommendation')
    {
     iconsHTML = `
-            <a href="#"><img src="customer-segmentation.png" alt="Customer Segmentation"><span>Customer Segmentation</span></a>
+            <a href="#"><img src="Customer-segmentation.png" alt="Customer Segmentation"><span>Customer Segmentation</span></a>
             <a href="#"><img src="product-recommendation.png" alt="Product Recommendation"><span>Product Recommendation</span></a>                     
         `; 
    }
